@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:ital,wght@1,700&display=swap"
+          rel="stylesheet">
+</head>
+
+<body>
+     <header>
+          <section class="toppage">
+               <h1> Bienvenue , voici un <span class="white">petit</span> test de 5 <span
+                         class="purple">questions</span> !</h1>
+          </section>
+     </header>
+     <main>
+          <section class="questions">
+               <div class="questionOne">
+                    <h2 id="title"> </h2>
+                    <ol class="reponses">
+                         <li class="check">
+                              <p onclick="goodAnswers(this)" id="pOne" class="libutton"></p>
+                         </li>
+                         <li class="check">
+                              <p onclick="goodAnswers(this)" id="pTwo" class="libutton"></p>
+                         </li>
+                         <li class="check">
+                              <p onclick="goodAnswers(this)" id="pThree" class="libutton"></p>
+
+                         </li>
+                         <li class="check">
+                              <p onclick="goodAnswers(this)" id="pFour" class="libutton"></p>
+
+                         </li>
+                    </ol>
+
+                    <div id="res">Résultat :  /5</div>
+
+
+                    <div class="next">
+                         <button id="nextquest" onclick="nextQuest()"> Next Question !</button>
+                    </div>
+               </div>
+
+          </section>
+
+     </main>
+
+
+     <script src="script.js"></script>
+</body>
+
+</html>
